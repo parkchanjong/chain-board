@@ -1,10 +1,12 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
+import UploadFiles from '../containers/file_upload';
 
 const uploadpage = () => {
   return (
    <div>
-    uploadpage
+     <Link to="/">file list</Link>
+     <UploadFiles />
    </div>
   );
 };
